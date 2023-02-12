@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+h1{
+    display: inline-block;
+    vertical-align: middle;
+    width: 95%;
+    font-size: 5rem;
+    text-align: center;
+    margin-left: 3rem;
+}
+
+/*Menú*/
+ nav{
+    background-color: rgb(252, 252, 255);
+    min-height: 5vh;
+    padding: 0.5rem;
+    padding-bottom: 1rem;
+    
+}
+
+a {
+    /*float: left;*/
+    display: inline-block;
+    width: 8rem;
+    height: 3rem;
+    color: #141414;
+    background-color: #1b5e08;
+    text-decoration: none;
+    border-radius: 1rem;
+    text-align: center;
+    padding-top: 1rem;
+    font-weight: bolder;
+    float: right;
+   
+}
+
+a:hover{
+    background-color: yellow;
+    color: orange;
+}
+
+a:active{
+    background-color: black;
+}
+
+/*Imagen 1*/
+
+
+figure{
+    display: block;
+    margin: auto;
+    width: auto;
+    height: 150%;
+}
+    
+    
+
+    
