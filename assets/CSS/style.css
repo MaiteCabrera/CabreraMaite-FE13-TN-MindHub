@@ -2,7 +2,8 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
-    list-style: none;
+    background-color: yellowgreen;
+    font-family: italic;
     box-sizing: border-box;
 
 }
@@ -14,20 +15,40 @@ h1{
     font-size: 5rem;
     text-align: center;
     margin-left: 3rem;
+    color: rgb(42, 7, 7);
+    background-color: yellowgreen;
+}
+h2{
+    background-color: #e1e3db;
+    text-align: center;
+    border-bottom: solid;
+
+}
+h3{
+   
+    color: black;
+
 }
 
-/*Menú*/
+div img {
+    width: 100%;
+    height: 45vh;
+    border-style: solid;
+}
+
+
  nav{
-    background-color: rgb(252, 252, 255);
+    
+    background-color: yellowgreen;
     min-height: 5vh;
-    padding: 0.5rem;
-    padding-bottom: 1rem;
+    padding: 0.5em;
+    padding-bottom: 0.5rem;
+    top: 1em;
     
 }
 
-a {
-    /*float: left;*/
-    display: inline-block;
+nav >a {
+    display: block;
     width: 8rem;
     height: 3rem;
     color: #141414;
@@ -36,8 +57,9 @@ a {
     border-radius: 1rem;
     text-align: center;
     padding-top: 1rem;
-    font-weight: bolder;
+    font-weight: bold;
     float: right;
+    box-shadow: 3px 3px rgb(0,0,0);
    
 }
 
@@ -50,16 +72,17 @@ a:active{
     background-color: black;
 }
 
-/*Imagen 1*/
-
-
-figure{
-    display: block;
-    margin: auto;
-    width: auto;
-    height: 150%;
+#logo{
+    background-color: transparent;
+    position: relative;
+    top: 10px;
 }
-    
-    
 
-    
+article{
+    padding-left: 200px;
+    padding-bottom: 3em;
+}
+
+footer{
+    text-align: center;
+}
