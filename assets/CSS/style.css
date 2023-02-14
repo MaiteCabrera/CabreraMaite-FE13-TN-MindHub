@@ -45,6 +45,7 @@ div img {
     padding-bottom: 0.5rem;
     top: 1em;
     
+    
 }
 
 nav >a {
@@ -60,6 +61,7 @@ nav >a {
     font-weight: bold;
     float: right;
     box-shadow: 3px 3px rgb(0,0,0);
+
    
 }
 
@@ -85,4 +87,8 @@ article{
 
 footer{
     text-align: center;
+}
+
+#data{
+    padding-bottom: 10px;
 }
