@@ -1,7 +1,6 @@
 *{
     padding: 0;
     margin: 0;
-    text-decoration: none;
     background-color: yellowgreen;
     font-family: italic;
     box-sizing: border-box;
@@ -19,6 +18,9 @@ h1{
     background-color: yellowgreen;
 }
 h2{
+    text-align: center;
+}
+section > h2{
     background-color: #e1e3db;
     text-align: center;
     border-bottom: solid;
@@ -53,7 +55,6 @@ nav >a {
     height: 3rem;
     color: #141414;
     background-color: #1b5e08;
-    text-decoration: none;
     border-radius: 1rem;
     text-align: center;
     padding-top: 1rem;
@@ -76,13 +77,65 @@ a:active{
     background-color: transparent;
     position: relative;
     top: 10px;
+    width: 15vw;
+    height: 15vw;
+    display: inline-block;
 }
 
 article{
-    padding-left: 200px;
+    padding-left: 300px;
     padding-bottom: 3em;
+    
 }
 
-footer{
+.contenedor{
+    height: 50vh;
+    margin: 5%;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/*listas*/
+
+
+#lastOl{
+    list-style-type: circle;
+}
+
+/*Tabla*/
+
+table{
+    height:80vh;
+    width:70%;
+   
+   /* border: 3px solid black (esto le da un borde exterior )*/
+}
+
+main{
+    width:100vw;
+    height:90vh;
+    
+   /* display:flex;
+    justify-content:center;
+    align-content:center;*/
+
+}
+caption{
+    text-align: left;
+    padding: 10px;
+
+}
+th,td{
+    /*esto le da estilos a las celas, columnas y filas*/
+   /* border: 3px solid black;*/
+   background-color: burlywood;
+   text-align: center;
+   padding: 10px;
+}
+#pie{
     text-align: center;
+}
+span{
+    font-weight: bold;
 }
